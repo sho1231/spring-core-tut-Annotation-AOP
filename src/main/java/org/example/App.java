@@ -23,7 +23,7 @@ public class App
 //        Doctor doctor1=bean.getBean(Doctor.class);
 //        doctor1.setName("MBBS1");
 //        System.out.println(doctor);
-        cart.checkout("Done");
+        cart.checkout("Done1");
         cart.test();
 //        cart.quantity(2);
     }
