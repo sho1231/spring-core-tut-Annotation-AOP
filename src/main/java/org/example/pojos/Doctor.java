@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class Doctor implements Staff{
   private String name;
   @Autowired
-  private Nurse nurse;
+  public Nurse nurse;
   public void assist(){
     System.out.println("Doctor assisting");
   }
