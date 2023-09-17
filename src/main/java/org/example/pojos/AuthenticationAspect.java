@@ -9,14 +9,14 @@ import org.springframework.stereotype.Component;
 @Component
 @Aspect
 public class AuthenticationAspect {
-//  @Pointcut("within(org.example.pojos.ShoppingCart)")
-//  public void auth(){
-//
-//  }
-//  @Before("auth()")
-//  public void go(){
-//    System.out.println(1231);
-//  }
+  @Pointcut("within(org.example.pojos.*)")
+  public void auth(){
+
+  }
+  @Before("auth()")
+  public void go(){
+    System.out.println(1231);
+  }
 }
 /*
 The auth() method is like a rule that says, "Look for methods inside the org.example.pojos.ShoppingCart package." It doesn't run by itself; it's just a rule.

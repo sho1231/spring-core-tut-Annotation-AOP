@@ -18,11 +18,11 @@ public class App
 //        AbstractApplicationContext bean=new ClassPathXmlApplicationContext("config.xml");
         AbstractApplicationContext bean=new AnnotationConfigApplicationContext(Config.class);
         ShoppingCart cart=bean.getBean(ShoppingCart.class);
-//        Doctor doctor=bean.getBean(Doctor.class);
-//        doctor.setName("MBBS");
-//        Doctor doctor1=bean.getBean(Doctor.class);
-//        doctor1.setName("MBBS1");
-//        System.out.println(doctor);
+        Doctor doctor=bean.getBean(Doctor.class);
+        doctor.setName("MBBS");
+        Doctor doctor1=bean.getBean(Doctor.class);
+        doctor1.setName("MBBS1");
+        System.out.println(doctor);
         cart.checkout("Done1");
         cart.test();
 //        cart.quantity(2);

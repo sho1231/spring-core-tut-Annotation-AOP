@@ -20,6 +20,7 @@ public class Doctor implements Staff{
   }
 
   public void setName(String name) {
+    System.out.println("dname");
     this.name = name;
   }
   @Override
@@ -33,6 +34,7 @@ public class Doctor implements Staff{
   }
 
   public void setNurse(Nurse nurse) {
+    System.out.println("d nurse");
     this.nurse = nurse;
   }
 }

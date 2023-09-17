@@ -1,4 +1,6 @@
 
 @	java:S106"+Replace this use of System.out by a logger.(ˆûÛÅ
+L	java:S106"+Replace this use of System.out by a logger.(İ–Èøÿÿÿÿ8ì“Ø¥ª1
+G	java:S106%"+Replace this use of System.out by a logger.(£®¢8—›Ù¥ª1
 l
 java:S1128"QRemove this unused import 'org.springframework.context.annotation.ComponentScan'.(æëòÒûÿÿÿÿ
