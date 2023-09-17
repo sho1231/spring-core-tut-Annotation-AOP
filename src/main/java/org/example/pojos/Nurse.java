@@ -15,6 +15,7 @@ public class Nurse implements Staff{
   }
 
   public void setName(String name) {
+    System.out.println("n name");
     this.name = name;
   }
   public String toString(){
